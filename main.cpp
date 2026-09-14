@@ -1,6 +1,5 @@
 #include <iostream>
 #include "project.hpp"
-// #include <ncurses.h>
 
 int main(){
 
@@ -12,6 +11,9 @@ int main(){
     std::cout << '\n';
     newProject.addPlanner("2");
     newProject.getPlanner(1).printPlannerName();
+    std::cout << '\n';
+    newProject.deletePlanner(0);
+    newProject.getPlanner(0).printPlannerName();
 
 
     // Planner& x = newProject.getPlanner(0);

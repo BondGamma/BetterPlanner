@@ -1,14 +1,14 @@
-// #ifndef INTERFACE_HPP
-// #define INTERFACE_HPP
+#ifndef INTERFACE_HPP
+#define INTERFACE_HPP
 
-// #include <ncurses.h>
-// #include "planner.hpp"
+#include <ncurses.h>
+#include "project.hpp"
 
-// class Interface{
+class Interface{
 
-//     public:
+    public:
         
 
-// };
+};
 
-// #endif
+#endif

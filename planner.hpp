@@ -102,7 +102,7 @@ Task* Planner::getTask(int index){
 void Planner::printList() const {
     Task* temp = head;
     while(temp){
-        std::cerr << temp->m_value << '\n';
+        std::cout << temp->m_value << '\n';
         temp = temp->next;
     }
 }
@@ -218,7 +218,7 @@ void Planner::deleteTask(int index) {
 
 bool Planner::setTask(int index, std::string_view task){
     if (index < 0 || index >= length){
-        return false;
+        return false;;
     }
     Task* temp = getTask(index);
     temp->m_value = task;
