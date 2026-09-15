@@ -1,19 +1,23 @@
 #include <iostream>
-#include "project.hpp"
+#include "interface.hpp"
 
 int main(){
 
 
-    Project newProject("Gangsta");
-    // newProject.printProjectName();
-    newProject.addPlanner("1");
-    newProject.getPlanner(0).printPlannerName();
-    std::cout << '\n';
-    newProject.addPlanner("2");
-    newProject.getPlanner(1).printPlannerName();
-    std::cout << '\n';
-    newProject.deletePlanner(0);
-    newProject.getPlanner(0).printPlannerName();
+
+    Interface* test = new Interface();
+
+    // Project newProject("Gangsta");
+    // // newProject.printProjectName();
+    // newProject.addPlanner("1");
+    // newProject.getPlanner(0).printPlannerName();
+    // std::cout << '\n';
+    // newProject.addPlanner("2");
+    // newProject.getPlanner(1).printPlannerName();
+    // std::cout << '\n';
+    // newProject.deletePlanner(0);
+    // newProject.getPlanner(0).printPlannerName();
+
 
 
     // Planner& x = newProject.getPlanner(0);
