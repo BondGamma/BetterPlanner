@@ -45,13 +45,13 @@ class Planner{
             }
         }
         
-        void printList() const;
-        void printPlannerName() const;
+        void printTasks() const;
+        void printPlannerName();
 
         Task* getHead() const;
         Task* getTail() const;
         Task* getTask(int index);
-        std::string getPlannerName() const;
+        std::string& getPlannerName();
 
         int getLength() const;
         bool setTask(int index, std::string_view task);
@@ -68,11 +68,11 @@ class Planner{
 };
 
 
-std::string Planner::getPlannerName() const {
+std::string& Planner::getPlannerName() {
     return m_plannerName;
 }
 
-void Planner::printPlannerName() const {
+void Planner::printPlannerName(){
     std::cout << getPlannerName();
 }
 
@@ -99,7 +99,7 @@ Task* Planner::getTask(int index){
     return temp;
 }
 
-void Planner::printList() const {
+void Planner::printTasks() const {
     Task* temp = head;
     while(temp){
         std::cout << temp->m_value << '\n';
@@ -150,7 +150,7 @@ bool Planner::insert(std::string_view task, int index){
     Task* newTask = new Task(task);
     Task* temp = getTask(index - 1);
     newTask->next = temp->next;
-    temp = newTask;
+    temp->next = newTask;
     length++;
     return true;
 }
@@ -239,6 +239,7 @@ bool Planner::swapTasks(int firstIndex, int secondIndex){
     Task* first = getTask(firstIndex);
     Task* second = getTask(secondIndex);
     std::swap(first->m_value, second->m_value);
+
     return true;
 }
 

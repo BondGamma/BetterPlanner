@@ -27,8 +27,9 @@ class Project
         Planner& getPlanner(int index);
         int& getLength();
 
+        void printAllTasks();
         void printProjectName();
-        void printPlanners() const;
+        void printPlanners();
 
         void addPlanner(std::string_view plannnerName);
         bool deletePlanner(int index);
@@ -45,12 +46,20 @@ bool Project::deletePlanner(int index){
         return false;
     } 
     m_plannersList.erase(m_plannersList.begin() + index);
+    --m_length;
     return true;
 }
 
-void Project::printPlanners() const{
-    for (int i = 0; i < m_length; i++){
-        m_plannersList[i].printList();
+void Project::printPlanners(){
+    for (int i = 0; i <= m_length; i++){
+        m_plannersList[i].printPlannerName();
+        std::cout << '\n';
+    }
+}
+void Project::printAllTasks(){
+    for (int i = 0; i <= m_length; i++){
+        m_plannersList[i].printTasks();
+        std::cout << '\n';
     }
 }
 

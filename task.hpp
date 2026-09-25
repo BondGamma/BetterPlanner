@@ -10,5 +10,10 @@ class Task{
             : m_value(value), next(nullptr)
         {
         }
+        
+        Task()
+            : m_value(""), next(nullptr)
+            {
+            }
 };
 #endif

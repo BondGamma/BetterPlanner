@@ -3,10 +3,24 @@
 
 int main(){
 
-
-
-    Interface* test = new Interface();
-
+    Project* newProject = new Project();
+    newProject->printProjectName();
+    std::cout << "\n";
+    newProject->addPlanner("Test 1");
+    newProject->addPlanner("Test 2");
+    newProject->addPlanner("Test 3");
+    newProject->printPlanners();
+    std::cout << '\n';
+    newProject->getPlanner(0).append("Drink Water");
+    newProject->getPlanner(0).append("Do Homework");
+    newProject->getPlanner(0).append("Something else");
+    newProject->getPlanner(0).append("Study");
+    newProject->getPlanner(1).append("A");
+    newProject->getPlanner(1).append("B");
+    newProject->getPlanner(1).append("C");
+    newProject->getPlanner(1).append("D");
+    newProject->printAllTasks();
+    
     // Project newProject("Gangsta");
     // // newProject.printProjectName();
     // newProject.addPlanner("1");
@@ -43,9 +57,7 @@ int main(){
     // newPlanner->printList();
     // std::cerr << '\n';
     // newPlanner->swapTasks(1,3);     
-    // newPlanner->swapTasks(0,4);
     // newPlanner->printList();
-
 
 
 
@@ -68,7 +80,6 @@ int main(){
     // refresh();
     // getch();
     // endwin();
-
 
 
     return 0;
