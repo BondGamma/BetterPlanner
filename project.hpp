@@ -6,16 +6,15 @@ class Project
     private:
         std::vector<Planner> m_plannersList;
         std::string m_projectName;
-        int m_length;
 
     public:
         Project(std::string_view projectName)
-            : m_projectName(projectName), m_plannersList(), m_length(-1)
+            : m_projectName(projectName), m_plannersList()
         {
         }
 
         Project()
-            :m_projectName("NoNAME"), m_plannersList(), m_length(-1)
+            :m_projectName("NoNAME"), m_plannersList()
         {            
         }
         
@@ -38,26 +37,24 @@ class Project
 
 void Project::addPlanner(std::string_view plannerName){
     m_plannersList.emplace_back(plannerName);
-    ++m_length;
 }
 
 bool Project::deletePlanner(int index){
-    if (index < 0 || index >= m_length){
+    if (index < 0 || index >= m_plannersList.size()){
         return false;
     } 
     m_plannersList.erase(m_plannersList.begin() + index);
-    --m_length;
     return true;
 }
 
 void Project::printPlanners(){
-    for (int i = 0; i <= m_length; i++){
+    for (int i = 0; i <= m_plannersList.size(); i++){
         m_plannersList[i].printPlannerName();
         std::cout << '\n';
     }
 }
 void Project::printAllTasks(){
-    for (int i = 0; i <= m_length; i++){
+    for (int i = 0; i <= m_plannersList.size(); i++){
         m_plannersList[i].printTasks();
         std::cout << '\n';
     }
