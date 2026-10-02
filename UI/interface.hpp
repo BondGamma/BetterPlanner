@@ -1,11 +1,9 @@
 #ifndef INTERFACE_HPP
 #define INTERFACE_HPP
 
-#include "project.hpp"
-#include <ncurses.h>
+#include "../project.hpp"
 
 class Interface{
-    
     std::vector<Project> m_projects;
     std::string m_projectName;
 
@@ -29,6 +27,7 @@ class Interface{
 
         Project& getProject(int index);
         std::vector<Project>& getProjectsList();
+
 };
 
 
@@ -54,7 +53,7 @@ std::vector<Project>& Interface::getProjectsList(){
 }
 
 void Interface::run(){
-
+    
 }
 
 
