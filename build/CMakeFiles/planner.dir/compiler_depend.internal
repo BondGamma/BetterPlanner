@@ -7,7 +7,9 @@ CMakeFiles/planner.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/___wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h
@@ -671,6 +673,7 @@ CMakeFiles/planner.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wchar.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curses.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
@@ -689,6 +692,8 @@ CMakeFiles/planner.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ncurses.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ncurses_dll.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h
@@ -788,6 +793,7 @@ CMakeFiles/planner.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unctrl.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h
@@ -821,4 +827,8 @@ CMakeFiles/planner.dir/main.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdint.h
+ /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/planner.hpp
+ /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/project.hpp
+ /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/task.hpp
+ /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/UI/interface.hpp
 

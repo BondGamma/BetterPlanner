@@ -821,4 +821,10 @@ CMakeFiles/planner.dir/main.cpp.o: \
   /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/UI/interface.hpp \
   /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/UI/../project.hpp \
   /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/UI/../planner.hpp \
-  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/UI/../task.hpp
+  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/UI/../task.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ncurses.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ncurses_dll.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unctrl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curses.h
