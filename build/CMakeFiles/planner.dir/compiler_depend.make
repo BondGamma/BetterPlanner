@@ -674,6 +674,8 @@ CMakeFiles/planner.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPla
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curses.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/eti.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/form.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -826,10 +828,10 @@ CMakeFiles/planner.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPla
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdint.h \
+  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/interface.hpp \
   /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/planner.hpp \
   /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/project.hpp \
-  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/task.hpp \
-  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/UI/interface.hpp
+  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/task.hpp
 
 
 /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/task.hpp:
@@ -837,6 +839,8 @@ CMakeFiles/planner.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPla
 /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/project.hpp:
 
 /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/planner.hpp:
+
+/Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/interface.hpp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdint.h:
 
@@ -879,6 +883,10 @@ CMakeFiles/planner.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPla
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h:
 
@@ -996,10 +1004,6 @@ CMakeFiles/planner.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPla
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_endian.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/comparison.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/__endian.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h:
@@ -1032,6 +1036,16 @@ CMakeFiles/planner.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPla
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/comparison.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/__endian.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/subrange.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/form.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/exponential_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wchar.h:
@@ -1043,6 +1057,10 @@ CMakeFiles/planner.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPla
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/eti.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_void.h:
 
@@ -1463,10 +1481,6 @@ CMakeFiles/planner.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPla
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__verbose_trap:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/subrange.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/empty.h:
 
@@ -1978,8 +1992,6 @@ CMakeFiles/planner.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPla
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
 
-/Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/UI/interface.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
@@ -2232,8 +2244,6 @@ CMakeFiles/planner.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPla
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wctype.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/byte.h:
@@ -2337,8 +2347,6 @@ CMakeFiles/planner.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPla
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h:
 
@@ -2487,5 +2495,3 @@ CMakeFiles/planner.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPla
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min_element.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:

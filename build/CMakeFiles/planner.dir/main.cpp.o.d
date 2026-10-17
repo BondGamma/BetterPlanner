@@ -818,10 +818,10 @@ CMakeFiles/planner.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/UI/interface.hpp \
-  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/UI/../project.hpp \
-  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/UI/../planner.hpp \
-  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/UI/../task.hpp \
+  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/interface.hpp \
+  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/project.hpp \
+  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/planner.hpp \
+  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/task.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ncurses.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ncurses_dll.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
