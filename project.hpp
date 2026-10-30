@@ -4,7 +4,7 @@
 class Project
 {
     private:
-        std::vector<Planner> m_plannersList;
+        std::vector<std::unique_ptr<Planner>> m_plannersList;
         std::string m_projectName;
 
     public:
@@ -24,7 +24,7 @@ class Project
 
         std::string& getProjectName();
         Planner& getPlanner(int index);
-        int& getLength();
+        // int& getLength();
 
         void printAllTasks();
         void printProjectName();
@@ -36,7 +36,7 @@ class Project
 };
 
 void Project::addPlanner(std::string_view plannerName){
-    m_plannersList.emplace_back(plannerName);
+    m_plannersList.push_back(std::make_unique<Planner>(plannerName));
 }
 
 bool Project::deletePlanner(int index){
@@ -48,14 +48,14 @@ bool Project::deletePlanner(int index){
 }
 
 void Project::printPlanners(){
-    for (int i = 0; i <= m_plannersList.size(); i++){
-        m_plannersList[i].printPlannerName();
+    for (int i = 0; i < m_plannersList.size(); i++){
+        m_plannersList[i]->printPlannerName();
         std::cout << '\n';
     }
 }
 void Project::printAllTasks(){
     for (int i = 0; i <= m_plannersList.size(); i++){
-        m_plannersList[i].printTasks();
+        m_plannersList[i]->printTasks();
         std::cout << '\n';
     }
 }
@@ -69,5 +69,5 @@ void Project::printProjectName() {
 }
  
 Planner& Project::getPlanner(int index) {
-    return m_plannersList[index];
+    return *m_plannersList[index];
 }

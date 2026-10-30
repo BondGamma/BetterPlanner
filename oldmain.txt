@@ -1,0 +1,50 @@
+ std::vector<std::unique_ptr<Project>> m_projects; // parallell 1
+    std::vector<std::string> projectNames; // parallell 2
+
+    projectNames.push_back("Testing1");
+    m_projects.push_back(std::make_unique<Project>("Testing1"));
+    projectNames.push_back("Testing2");
+    m_projects.push_back(std::make_unique<Project>("Testing2"));
+
+    m_projects[0]->addPlanner("Zhepa");
+    m_projects[0]->addPlanner("Gava");
+    m_projects[0]->addPlanner("Gopea");
+
+    Planner& planner = m_projects[0]->getPlanner(1);
+    
+    auto screen = App::Fullscreen();
+    int projectSelected = 0;
+    int planner_selected = 0;
+
+
+    MenuOption option;
+    option.on_enter = screen.ExitLoopClosure();
+
+    auto left_menu = Menu(&projectNames, &projectSelected, option);
+
+ 
+  // State:
+    int size = 40;
+    int size_min = 10;
+    int size_max = 80;
+    
+    // Renderers:
+    auto split = ResizableSplit({
+        .main = left_menu,
+        .back = Renderer([] { return text("TEST") | center; }),
+        .direction = Direction::Left,
+        .main_size = &size,
+        .min = &size_min,
+        .max = &size_max,
+    });
+    
+    auto renderer = Renderer(split, [&] {
+        return window(text("Projects (left) | Content (right)"),
+                split->Render() | flex);
+    });
+    
+    
+    screen.Loop(renderer);
+
+
+ 

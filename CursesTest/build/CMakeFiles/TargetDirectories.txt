@@ -1,0 +1,3 @@
+/Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/CursesTest/build/CMakeFiles/main.dir
+/Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/CursesTest/build/CMakeFiles/edit_cache.dir
+/Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/CursesTest/build/CMakeFiles/rebuild_cache.dir

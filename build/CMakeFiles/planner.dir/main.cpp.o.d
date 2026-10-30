@@ -819,12 +819,39 @@ CMakeFiles/planner.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/interface.hpp \
+  /usr/local/include/ftxui/component/app.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
+  /usr/local/include/ftxui/component/animation.hpp \
+  /usr/local/include/ftxui/util/export.hpp \
+  /usr/local/include/ftxui/component/captured_mouse.hpp \
+  /usr/local/include/ftxui/component/task.hpp \
+  /usr/local/include/ftxui/component/event.hpp \
+  /usr/local/include/ftxui/component/mouse.hpp \
+  /usr/local/include/ftxui/screen/screen.hpp \
+  /usr/local/include/ftxui/screen/surface.hpp \
+  /usr/local/include/ftxui/screen/box.hpp \
+  /usr/local/include/ftxui/screen/cell.hpp \
+  /usr/local/include/ftxui/screen/color.hpp \
+  /usr/local/include/ftxui/screen/terminal.hpp \
+  /usr/local/include/ftxui/component/component.hpp \
+  /usr/local/include/ftxui/util/warn_windows_macro.hpp \
+  /usr/local/include/ftxui/component/component_base.hpp \
+  /usr/local/include/ftxui/dom/elements.hpp \
+  /usr/local/include/ftxui/dom/canvas.hpp \
+  /usr/local/include/ftxui/dom/direction.hpp \
+  /usr/local/include/ftxui/dom/flexbox_config.hpp \
+  /usr/local/include/ftxui/dom/linear_gradient.hpp \
+  /usr/local/include/ftxui/dom/node.hpp \
+  /usr/local/include/ftxui/dom/requirement.hpp \
+  /usr/local/include/ftxui/dom/selection.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
+  /usr/local/include/ftxui/util/ref.hpp \
+  /usr/local/include/ftxui/screen/string.hpp \
+  /usr/local/include/ftxui/dom/take_any_args.hpp \
+  /usr/local/include/ftxui/dom/deprecated.hpp \
+  /usr/local/include/ftxui/component/component_options.hpp \
   /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/project.hpp \
   /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/planner.hpp \
-  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/task.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ncurses.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ncurses_dll.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unctrl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curses.h
+  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/task.hpp

@@ -1,5 +1,9 @@
-cmake_minimum_required(VERSION 4.4)
-project(planner)
+cmake_minimum_required(VERSION 3.14)
+project(test)
 
-add_executable(planner main.cpp)
-target_link_libraries(planner ncurses menu)
+find_package(ftxui REQUIRED)
+
+add_executable(main main.cpp)
+
+
+target_link_libraries(main PRIVATE ftxui::ftxui)
