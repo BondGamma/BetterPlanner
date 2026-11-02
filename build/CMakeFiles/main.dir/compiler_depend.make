@@ -188,6 +188,7 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/duration.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/steady_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/system_clock.h \
@@ -619,6 +620,7 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
@@ -638,6 +640,7 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
@@ -656,6 +659,7 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
@@ -830,8 +834,83 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdint.h \
   /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/planner.hpp \
   /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/project.hpp \
-  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/task.hpp
+  /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/task.hpp \
+  /usr/local/include/ftxui/component/animation.hpp \
+  /usr/local/include/ftxui/component/app.hpp \
+  /usr/local/include/ftxui/component/captured_mouse.hpp \
+  /usr/local/include/ftxui/component/component.hpp \
+  /usr/local/include/ftxui/component/component_base.hpp \
+  /usr/local/include/ftxui/component/component_options.hpp \
+  /usr/local/include/ftxui/component/event.hpp \
+  /usr/local/include/ftxui/component/mouse.hpp \
+  /usr/local/include/ftxui/component/task.hpp \
+  /usr/local/include/ftxui/dom/canvas.hpp \
+  /usr/local/include/ftxui/dom/deprecated.hpp \
+  /usr/local/include/ftxui/dom/direction.hpp \
+  /usr/local/include/ftxui/dom/elements.hpp \
+  /usr/local/include/ftxui/dom/flexbox_config.hpp \
+  /usr/local/include/ftxui/dom/linear_gradient.hpp \
+  /usr/local/include/ftxui/dom/node.hpp \
+  /usr/local/include/ftxui/dom/requirement.hpp \
+  /usr/local/include/ftxui/dom/selection.hpp \
+  /usr/local/include/ftxui/dom/take_any_args.hpp \
+  /usr/local/include/ftxui/screen/box.hpp \
+  /usr/local/include/ftxui/screen/cell.hpp \
+  /usr/local/include/ftxui/screen/color.hpp \
+  /usr/local/include/ftxui/screen/screen.hpp \
+  /usr/local/include/ftxui/screen/string.hpp \
+  /usr/local/include/ftxui/screen/surface.hpp \
+  /usr/local/include/ftxui/screen/terminal.hpp \
+  /usr/local/include/ftxui/util/export.hpp \
+  /usr/local/include/ftxui/util/ref.hpp \
+  /usr/local/include/ftxui/util/warn_windows_macro.hpp
 
+
+/usr/local/include/ftxui/util/ref.hpp:
+
+/usr/local/include/ftxui/util/export.hpp:
+
+/usr/local/include/ftxui/screen/terminal.hpp:
+
+/usr/local/include/ftxui/screen/surface.hpp:
+
+/usr/local/include/ftxui/screen/string.hpp:
+
+/usr/local/include/ftxui/screen/screen.hpp:
+
+/usr/local/include/ftxui/screen/color.hpp:
+
+/usr/local/include/ftxui/screen/cell.hpp:
+
+/usr/local/include/ftxui/dom/requirement.hpp:
+
+/usr/local/include/ftxui/dom/node.hpp:
+
+/usr/local/include/ftxui/dom/linear_gradient.hpp:
+
+/usr/local/include/ftxui/dom/flexbox_config.hpp:
+
+/usr/local/include/ftxui/dom/elements.hpp:
+
+/usr/local/include/ftxui/dom/direction.hpp:
+
+/usr/local/include/ftxui/dom/deprecated.hpp:
+
+/usr/local/include/ftxui/dom/canvas.hpp:
+
+/usr/local/include/ftxui/component/task.hpp:
+
+/usr/local/include/ftxui/component/mouse.hpp:
+
+/usr/local/include/ftxui/component/event.hpp:
+
+/usr/local/include/ftxui/component/component_base.hpp:
+
+/usr/local/include/ftxui/component/component.hpp:
+
+/usr/local/include/ftxui/component/captured_mouse.hpp:
+
+/usr/local/include/ftxui/component/animation.hpp:
 
 /Users/abobrov/Desktop/Cpp/Projects/BetterPlanner/task.hpp:
 
@@ -885,13 +964,11 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/is_valid_range.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h:
 
@@ -974,8 +1051,6 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino64_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_gid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
@@ -1097,6 +1172,12 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_gid_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/signal.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
@@ -1108,6 +1189,8 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype:
+
+/usr/local/include/ftxui/dom/take_any_args.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h:
 
@@ -1309,8 +1392,6 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
@@ -1334,6 +1415,12 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_convertible.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/is_valid_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h:
 
@@ -1391,6 +1478,8 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h:
 
+/usr/local/include/ftxui/screen/box.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/container_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conjunction.h:
@@ -1398,6 +1487,8 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conditional.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
+
+/usr/local/include/ftxui/component/component_options.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/alignment_of.h:
 
@@ -1575,11 +1666,11 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_temporary_buffer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/lock_guard.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/segmented_iterator.h:
 
@@ -1620,6 +1711,8 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/trigonometric_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
+
+/usr/local/include/ftxui/util/warn_windows_macro.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/traits.h:
 
@@ -1817,6 +1910,8 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/sstream.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h:
@@ -1991,9 +2086,15 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count_if.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
@@ -2008,6 +2109,10 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/ignore.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/steady_clock.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/traits.h:
 
@@ -2026,8 +2131,6 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit_reference:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/popcount.h:
 
@@ -2069,6 +2172,8 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno:
@@ -2076,6 +2181,8 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/check_memory_order.h:
+
+/usr/local/include/ftxui/dom/selection.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min.h:
 
@@ -2126,8 +2233,6 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
 
@@ -2182,8 +2287,6 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/signal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/support.h:
 
@@ -2271,6 +2374,8 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
+/usr/local/include/ftxui/component/app.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h:
@@ -2347,8 +2452,6 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count_if.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
@@ -2396,10 +2499,6 @@ CMakeFiles/main.dir/main.cpp.o: /Users/abobrov/Desktop/Cpp/Projects/BetterPlanne
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h:
 
