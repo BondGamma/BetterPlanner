@@ -55,25 +55,21 @@ void Nested(std::string path, int depth = 0) {
   screen.Loop(renderer);
 }
  
-int listOptions(std::vector<std::string>& entries){
+int listOptions(const std::vector<std::string>& entries){
   auto screen = App::TerminalOutput();  
   int selected = 0;
   MenuOption option;
   option.on_enter = [&] {
     screen.ExitLoopClosure()(); 
-    // return;
   };
  
   auto menu = Menu(&entries, &selected, option);
-  // auto quit = Button("Quit", screen.ExitLoopClosure());
   auto layout = Container::Vertical( {menu} );
   auto renderer = Renderer(layout, [&] {
     return vbox({
                text("Projects"),
                separator(),
                menu->Render(),
-               separator(),
-               text("You picked" + entries[selected])
            }) |
            border;
   });
@@ -94,12 +90,12 @@ int main() {
 
   listOptions(entries);
 
-  // auto screen = App::Fullscreen();
-  // auto button_nested = Button("Check Projects", [] { Nested(""); });
-  // auto button_quit = Button("Quit", screen.ExitLoopClosure());
-  // screen.Loop(Container::Vertical({
-  //   button_nested,
-  //     button_quit,
-  // }));
+  auto screen = App::Fullscreen();
+  auto button_nested = Button("Check Projects", [] { Nested(""); });
+  auto button_quit = Button("Quit", screen.ExitLoopClosure());
+  screen.Loop(Container::Vertical({
+    button_nested,
+      button_quit,
+  }));
   return 0;
 }
